@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(89, 89, 239);
+}
+ 
+#Parent-Container{
+    background-color: rgb(247, 247, 246);
+    width: 80%;
+    height: 91vh;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 20vw;
+    border-radius: 2rem;
+}
+
+.child-container-1{
+    background-color: whitesmoke;
+    width: 70%;
+    height: 90vh;
+    margin-left: 10vw;
+    margin-right: 20vw;
+    align-items: center;
+    border-left: 1px solid rgb(230, 221, 221);   
+}
+
+.dashboard{
+    display: flex;
+    width: 100%;
+    padding-left: 1rem;
+    align-items: center;
+}
+
+.a{
+    display: flex;
+    align-items: center; 
+    margin: 0.5rem;
+    color: rgb(58, 58, 131);
+}
+
+.nav-buttons{
+    display: flex;
+    padding-left: 30rem;
+    gap: 1rem;
+}
+
+.aaa {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: aqua;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid rgb(230, 221, 221);
+     color: rgb(58, 58, 131);
+}
+
+.aa{
+    background-color: aqua;
+    border-radius: 0.5rem;
+    width: 25%;
+    height: 50%;
+    align-items: center; 
+    justify-content: space-between;
+    margin: 0.2rem;
+    padding: 0.2rem;
+}
+
+#First-Container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    gap: 2rem;
+}
+
+.Heading{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    color: rgb(58, 58, 131);
+}
+
+.rectangle{
+    background-color: rgb(89, 89, 239);
+    width: 50%;
+    height: 8vh;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    border-radius: 1rem;
+    color: rgb(248, 244, 244);
+}
+
+.rectangle .w h5, .s{
+    text-transform: uppercase;
+}
+
+.child-container-1 .rectangle .w{
+    margin: 1rem;
+    padding-left: 1rem;
+}
+
+.child-container-1 .rectangle .w h5{
+    margin: 0;
+    padding: 0;
+}
+
+.child-container-1 .rectangle .w p{
+    padding-top: 2rem;
+    margin: 2px;
+    padding: 0;
+}
+
+.rectangle-1{
+    background-color: white;
+    width: 33.5vw;
+    height: 15vh;
+    border-radius: 1rem;
+    padding-top: 0.5px;
+    margin: 2rem;
+}
+
+.rectangle-1 h5, .o{
+    color: rgb(58, 58, 131);
+}
+
+.rectangle-1 .c h5{
+    margin: 1rem;
+}
+
+.rectangle-1 .c p{
+    margin: 1rem;
+    padding: 0;
+}
+
+.First-Container{
+    display: flex;
+}
+
+.rectangle-rectangle{
+    background-color: white;
+    width: 100%;
+    height: 34vh;
+    margin-left: 0.2rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
+}
+
+.rectangle-rectangle .s{
+    border-bottom: 1px solid rgb(230, 221, 221);
+    margin: 2rem;
+}
+
+.rectangle-rectangle .s h5{
+    padding-left: 1rem;
+    color: rgb(89, 89, 239);
+}
+
+.Recent-Orders{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+}
+
+.recent-orders{
+    gap: 18rem;
+    margin-right: 2rem;
+    color: rgb(89, 89, 239);
+}
+
+.list-container .list .m p{
+    color: rgb(21, 167, 21);
+}
+
+.list-container .list-1 .n p{
+    color: red;
+}
+
+.list, .list-1{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-top: 0.1px solid rgb(230, 221, 221);
+}
